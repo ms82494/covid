@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
+# -*- coding: utf-8 -*
 
 import pandas as pd
 from pathlib import Path
@@ -65,6 +60,7 @@ conf_long = make_long(conf, 'confirmed')
 deaths_long = make_long(deaths, 'deaths')
 reco_long = make_long(reco, 'recovered')
 
+# combine the 3 unpivoted dataframes into one
 combo = conf_long.merge(deaths_long,
                         how='left',
                         on=['region','country','date']).merge(
