@@ -20,3 +20,6 @@ minimum problems.
 
 The [unpivot](./unpivot) folder will also contain an Excel workbook representing
 the output of the last run of my script.
+
+I maintain an online workbook that imports the most recent version of unpivoted.xlsx
+and imports it into a workbook, along with some added stats. This is available [here](https://onedrive.live.com/edit.aspx?resid=B76232A1614EEA01!241182&ithint=file%2cxlsx&authkey=!AKzXjg8Mikz_Bew)
